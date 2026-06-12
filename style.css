@@ -769,4 +769,21 @@ footer {
     width: 28px;
     height: 28px;
   }
+}/* TOPO CENTRALIZADO COM LOGO EM CIMA */
+.topo {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 8%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.topo nav {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
