@@ -899,4 +899,8 @@ footer {
   .foto {
     height: 320px;
   }
+}@media (min-width: 901px) {
+  .galeria-fotos img:last-child {
+    grid-column: 2 / 3;
+  }
 }
