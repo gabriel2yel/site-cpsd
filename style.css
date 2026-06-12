@@ -326,3 +326,45 @@ footer {
   .diferenciais h2,
   .servicos-especializados h2 { font-size: 34px; }
 }
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 420px));
+  justify-content: center;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .galeria-grid {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 420px));
+  justify-content: center;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .galeria-grid {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 420px));
+  justify-content: center;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .galeria-grid {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
