@@ -39,14 +39,17 @@ img, video { display: block; max-width: 100%; }
 
 .hero {
   min-height: 100vh;
-  padding: 140px 8% 80px;
+  padding: 170px 8% 110px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   background:
-    linear-gradient(rgba(31, 18, 8, 0.88), rgba(31, 18, 8, 0.95)),
-    radial-gradient(circle at center, #6b3d1e, #1f1208);
+    linear-gradient(rgba(20, 11, 4, 0.82), rgba(20, 11, 4, 0.92)),
+    url("assets/montagem-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-texto { max-width: 900px; }
@@ -367,4 +370,11 @@ footer {
     max-width: 360px;
     margin: 0 auto;
   }
+}
+.hero-texto {
+  background: rgba(20, 11, 4, 0.55);
+  padding: 45px 35px;
+  border-radius: 22px;
+  border: 1px solid rgba(212, 154, 58, 0.35);
+  backdrop-filter: blur(3px);
 }
