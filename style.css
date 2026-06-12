@@ -1037,3 +1037,99 @@ footer {
   color: #f5a623;
   display: block;
 }
+.contato {
+  background: #341909;
+  color: #fff;
+  text-align: center;
+  padding: 55px 20px;
+}
+
+.contato h2 {
+  color: #f5a623;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contato > p {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.contato-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.contato-card {
+  border: 1px solid #8a4f10;
+  border-radius: 14px;
+  padding: 35px 25px;
+  min-height: 190px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contato-card h3 {
+  color: #f5a623;
+  font-size: 24px;
+  margin: 12px 0 8px;
+}
+
+.contato-card p {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+
+.contato-icone {
+  font-size: 34px;
+  color: #f5a623;
+  margin-bottom: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram-link {
+  width: 100%;
+  height: 100%;
+
+  text-decoration: none;
+  color: inherit;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram-svg svg {
+  width: 34px;
+  height: 34px;
+  fill: #f5a623;
+  display: block;
+}
+
+.instagram-link:hover h3,
+.instagram-link:hover .instagram-svg svg {
+  color: #ffbd39;
+  fill: #ffbd39;
+}
+
+@media (max-width: 900px) {
+  .contato-cards {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+
+  .contato-card {
+    min-height: 170px;
+  }
+}
