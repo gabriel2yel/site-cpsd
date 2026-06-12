@@ -378,3 +378,11 @@ footer {
   border: 1px solid rgba(212, 154, 58, 0.35);
   backdrop-filter: blur(3px);
 }
+.hero {
+  background:
+    linear-gradient(rgba(20, 11, 4, 0.70), rgba(20, 11, 4, 0.88)),
+    url("./assets/montagem-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
