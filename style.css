@@ -930,4 +930,68 @@ footer {
   width: 34px;
   height: 34px;
   fill: #d49a3a;
+}.contato {
+  background: #341909;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.contato h2 {
+  color: #f5a623;
+  margin-bottom: 10px;
+}
+
+.contato > p {
+  margin-bottom: 40px;
+}
+
+.contato-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.contato-card {
+  border: 1px solid #8a4f10;
+  border-radius: 14px;
+  padding: 35px 20px;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato-icone {
+  font-size: 32px;
+  color: #f5a623;
+  margin-bottom: 15px;
+}
+
+.contato-card h3 {
+  color: #f5a623;
+  margin-bottom: 10px;
+}
+
+.contato-card p {
+  color: #fff;
+}
+
+.instagram-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.instagram-link:hover h3,
+.instagram-link:hover .contato-icone {
+  color: #ffbd39;
+}
+
+@media (max-width: 768px) {
+  .contato-cards {
+    grid-template-columns: 1fr;
+  }
 }
