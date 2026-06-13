@@ -1132,4 +1132,20 @@ footer {
   .contato-card {
     min-height: 170px;
   }
+}.seo-local {
+  background: #2b1508;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.seo-local h2 {
+  color: #f5a623;
+  margin-bottom: 15px;
+}
+
+.seo-local p {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
 }
